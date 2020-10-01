@@ -53,9 +53,9 @@ def validate(value):
     totp = pyotp.totp.TOTP(secret)
 
     if totp.verify(value):
-        print('OK!')
+        print('OK - VALID CODE!')
     else:
-        print('ERROR!')
+        print('ERROR - INVALID CODE!')
 
 
 if __name__ == '__main__':

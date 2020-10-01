@@ -1,5 +1,5 @@
-Really simple One Time Password example with Python
-===================================================
+One Time Password example in Python
+===================================
 
 Command line application that supports 3 commands:
 
